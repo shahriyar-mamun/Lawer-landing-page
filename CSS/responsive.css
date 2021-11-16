@@ -1,0 +1,40 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .navbar-light .navbar-toggler-icon{
+       background-image:url(images/bars-solid.svg);
+       background-color: whitesmoke;
+    }
+
+    .who-we .box-2 img {
+        width: 75%;
+        height: 360px;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+
+    .fotter-section li{
+      list-style: none;
+      font-size: 20px;
+      float: left;
+     
+  }
+
+  .fotter-section{
+    font-size: 18px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px 0px;
+    color: #616CA8;
+    background-color: #0C1234;
+}
+
+
+.what-do {
+  width: 100%;
+  padding: 80px 0px;
+  background-color: #F7F8F8;
+}
+    }
